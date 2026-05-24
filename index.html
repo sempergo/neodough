@@ -554,9 +554,9 @@ section:not(.on-paper):not(.on-paper-2):not(.on-paper-3) .sec-title em{color:var
 }
 .mani-card h3{
   font-family:var(--ff-script); font-weight:400; font-style:italic;
-  font-size:clamp(30px, 2.2vw + 12px, 48px);
-  line-height:.95; margin:0; color:var(--ink); letter-spacing:-.01em;
-  min-height:calc(2em * .95); /* reserve 2 lines so photos align across cards */
+  font-size:clamp(22px, 1.2vw + 12px, 34px);
+  line-height:1; margin:0; color:var(--ink); letter-spacing:-.01em;
+  white-space:nowrap;
 }
 .mani-card p{margin:0; color:var(--on-paper-2); max-width:32ch; font-size:15px; line-height:1.5}
 .mani-card .photo{
@@ -2046,7 +2046,7 @@ footer{
     { name: 'Greek <em>Freak</em>', ey: 'Meatless', img: 'assets/wheel-greek-freak.png', desc: 'Feta auf gegrillter Aubergine und San-Marzano-Tomatensauce, Fior di Latte, Cherrytomaten, frische scharfe Peperoni, Oregano und Kalamata-Oliven.', ing: ['Feta','Aubergine','Peperoni','Oliven','Oregano'], price: '€ 18' },
     { name: 'NEO <em>Aubergine</em>', ey: 'Meatless', img: 'assets/wheel-neo-aubergine.png', desc: 'San-Marzano-Tomatensauce, gegrillte Aubergine, Fior di Latte, Cherrytomaten, hausgemachtes Auberginen-Tomaten-Pesto, Parmesan, Basilikum und Olivenöl.', ing: ['Aubergine','San Marzano','Auberginen-Pesto','Parmesan','Basilikum'], price: '€ 20' },
     { name: 'Moment of <em>Truffle</em>', ey: 'Meatless', img: 'assets/wheel-truffle.png', zoom: 2.3, desc: 'Fior di Latte, frische Champignons, Trüffelcreme, getrüffelte Burrata, Parmesan und Olivenöl.', ing: ['Trüffelcreme','Burrata','Champignons','Parmesan'], price: '€ 22' },
-    { name: '<em>Beehave</em>', ey: 'Meat Lovers', img: 'assets/wheel-beehave.png', radialOffset: 30, desc: 'San-Marzano-Tomatensauce, Fior di Latte, italienische Soppressata, rote Chili, feiner Bio-Honig & Basilikum.', ing: ['Soppressata','Bio-Honig','Chili','Basilikum'], price: '€ 17' },
+    { name: 'Beehave', ey: 'Meat Lovers', img: 'assets/wheel-beehave.png', radialOffset: 30, desc: 'San-Marzano-Tomatensauce, Fior di Latte, italienische Soppressata, rote Chili, feiner Bio-Honig & Basilikum.', ing: ['Soppressata','Bio-Honig','Chili','Basilikum'], price: '€ 17' },
     { name: 'Seoul\u2019d <em>Out</em>', ey: 'Meat Lovers', img: 'assets/wheel-seould-out.png', radialOffset: 50, desc: 'San-Marzano-Tomatensauce, mariniertes Teriyaki-Hähnchen, Fior di Latte, koreanisches Gochujang & rote Chili.', ing: ['Teriyaki-Hähnchen','Gochujang','Chili','Fior di Latte'], price: '€ 18' },
     { name: 'Caliente <em>Club</em>', ey: 'Meat Lovers', img: 'assets/wheel-caliente-club.png', zoom: 2.3, desc: 'San-Marzano-Tomatensauce, Champignons, mariniertes Rinderhack, Cherrytomaten, Fior di Latte, Jalapeños und Avocadocreme.', ing: ['Rinderhack','Jalapeños','Avocadocreme','Champignons'], price: '€ 20' },
     { name: 'Soho <em>Salmon</em>', ey: 'Creamy', img: 'assets/wheel-soho-salmon.png', zoom: 2.2, desc: 'Würzige Limetten-Dill-Creme, zarter Räucherlachs, Fior di Latte, Brokkoli und frischer Wildkräutersalat.', ing: ['Räucherlachs','Limetten-Dill','Brokkoli','Wildkräuter'], price: '€ 18' },
